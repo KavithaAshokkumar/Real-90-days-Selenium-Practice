@@ -32,7 +32,8 @@ public class Day5 {
 //2) Get the Alert text and print it 
 			
 			// Switching to Alert        
-	        Alert alert = driver.switchTo().alert();		
+	        Alert alert = driver.switchTo().alert();	
+		
 	        		
 	        // Capturing alert message.    
 	        String alertMessage= driver.switchTo().alert().getText();		
